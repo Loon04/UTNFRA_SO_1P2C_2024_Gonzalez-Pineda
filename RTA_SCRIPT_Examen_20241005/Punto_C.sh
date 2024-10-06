@@ -10,3 +10,4 @@ echo "verifico si los grupos fueron creados"
 
 cat /etc/group
 
+

@@ -59,3 +59,16 @@ echo "veo si estan bien los propietarios y grupos"
 
 sudo ls -l Examenes-UTN/
 
+echo "creo los archivos validar.txt con cada uno de los usuarios"
+
+sudo -su -c "whoami > Examenes-UTN/alumno_1/validar1.txt" p1c2_2024_A1
+
+sudo -su -c "whoami > Examenes-UTN/alumno_2/validar2.txt" p1c2_2024_A1
+
+sudo -su -c "whoami > Examenes-UTN/alumno3_1/validar3.txt" p1c2_2024_A1
+
+sudo -su -c "whoami > Examenes-UTN/profesores/validar4.txt" p1c2_2024_A1
+
+echo "veo si estan los archivos en las carpetas"
+
+sudo tree Examenes-UTN/
